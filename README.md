@@ -1,6 +1,3 @@
-# copilot-automation
-automation of self and task manager
-
 # 🤖 Copilot Automation - GitHub Actions Setup
 
 Automatizovani workflow za GitHub Projects sa Copilot integracijom!
