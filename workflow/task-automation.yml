@@ -35,3 +35,10 @@ jobs:
               repo: context.repo.repo,
               labels: ['review-needed']
             })
+  new-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Opis akcije
+        uses: action/some-action@version
+        with:
+          param1: value1
