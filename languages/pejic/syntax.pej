@@ -1,0 +1,29 @@
+# PejicLang Syntax Examples
+
+funkcija zdravo(ime):
+    print("Zdravo, " + ime)
+    vrati ime
+
+# Petlja
+za i u raspon(10):
+    print(i)
+
+# Uslovna
+ako x > 5:
+    print("Veće od 5")
+inače:
+    print("Manje ili jednako 5")
+
+# Lista
+brojevi = [1, 2, 3, 4, 5]
+za broj u brojevi:
+    print(broj)
+
+# Rečnik
+osoba = {
+    "ime": "Marko",
+    "starost": 25,
+    "grad": "Beograd"
+}
+
+print(osoba["ime"])

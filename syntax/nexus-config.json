@@ -1,0 +1,42 @@
+{
+  "name": "NexusConfig",
+  "scopeName": "source.nexusconfig",
+  "fileTypes": ["conf", "nconf"],
+  "patterns": [
+    {
+      "name": "comment.line.nexusconfig",
+      "match": "#.*$",
+      "foreground": "#6A9955"
+    },
+    {
+      "name": "key.nexusconfig",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=:)",
+      "foreground": "#9CDCFE"
+    },
+    {
+      "name": "string.quoted.nexusconfig",
+      "match": "\".*?\"",
+      "foreground": "#CE9178"
+    },
+    {
+      "name": "constant.boolean.nexusconfig",
+      "match": "\\b(true|false|enabled|disabled)\\b",
+      "foreground": "#569CD6"
+    },
+    {
+      "name": "constant.numeric.nexusconfig",
+      "match": "\\b\\d+(\\.\\d+)?\\b",
+      "foreground": "#B5CEA8"
+    },
+    {
+      "name": "punctuation.bracket.nexusconfig",
+      "match": "[\\[\\]{}]",
+      "foreground": "#D4D4D4"
+    },
+    {
+      "name": "punctuation.separator.nexusconfig",
+      "match": "[:,]",
+      "foreground": "#D4D4D4"
+    }
+  ]
+}

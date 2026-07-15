@@ -1,0 +1,37 @@
+{
+  "name": "PejicLang",
+  "scopeName": "source.pejic",
+  "fileTypes": ["pej"],
+  "patterns": [
+    {
+      "name": "comment.line.pejic",
+      "match": "#.*$",
+      "foreground": "#6A9955"
+    },
+    {
+      "name": "keyword.control.pejic",
+      "match": "\\b(funkcija|vrati|za|u|ako|inače|raspon|print)\\b",
+      "foreground": "#569CD6"
+    },
+    {
+      "name": "string.quoted.pejic",
+      "match": "\".*?\"",
+      "foreground": "#CE9178"
+    },
+    {
+      "name": "constant.numeric.pejic",
+      "match": "\\b\\d+(\\.\\d+)?\\b",
+      "foreground": "#B5CEA8"
+    },
+    {
+      "name": "variable.pejic",
+      "match": "\\b[a-z_][a-z0-9_]*\\b",
+      "foreground": "#9CDCFE"
+    },
+    {
+      "name": "operator.pejic",
+      "match": "[+\\-*/=<>!&|]",
+      "foreground": "#D4D4D4"
+    }
+  ]
+}

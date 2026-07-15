@@ -1,0 +1,47 @@
+{
+  "name": "NexusLang",
+  "scopeName": "source.nexus",
+  "fileTypes": ["nxs"],
+  "patterns": [
+    {
+      "name": "comment.line.nexus",
+      "match": "//.*$",
+      "foreground": "#6A9955"
+    },
+    {
+      "name": "comment.block.nexus",
+      "match": "/\\*.*?\\*/",
+      "foreground": "#6A9955"
+    },
+    {
+      "name": "keyword.control.nexus",
+      "match": "\\b(fn|let|const|import|return|if|else|for|while|match)\\b",
+      "foreground": "#569CD6"
+    },
+    {
+      "name": "keyword.type.nexus",
+      "match": "\\b(u8|u16|u32|u64|i8|i16|i32|i64|f32|f64|bool|void|ptr)\\b",
+      "foreground": "#4EC9B0"
+    },
+    {
+      "name": "string.quoted.nexus",
+      "match": "\".*?\"",
+      "foreground": "#CE9178"
+    },
+    {
+      "name": "constant.numeric.nexus",
+      "match": "\\b\\d+(\\.\\d+)?\\b",
+      "foreground": "#B5CEA8"
+    },
+    {
+      "name": "operator.nexus",
+      "match": "[+\\-*/=<>!&|*]",
+      "foreground": "#D4D4D4"
+    },
+    {
+      "name": "function.call.nexus",
+      "match": "\\b[a-z_][a-z0-9_]*\\s*\\(",
+      "foreground": "#DCDCAA"
+    }
+  ]
+}
